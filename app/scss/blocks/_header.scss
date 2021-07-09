@@ -1,0 +1,31 @@
+.header {
+
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        
+    }
+
+    &__logo {}
+
+    &__contacts {}
+
+    &__phone {
+        display: block;
+    }
+}
+.logo {
+}
+.nav {
+    
+    &__list {
+        display: flex;
+        margin-left: 28px;
+    }
+
+    &__item {
+        margin-right: 43px;
+    }
+}
+.button {
+}

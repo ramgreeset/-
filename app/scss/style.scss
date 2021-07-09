@@ -1,10 +1,16 @@
 @import "base/variables";
 @import "base/mixins";
+@import "base/container";
+@import "blocks/header";
 
-html{
+html,body{
     box-sizing: border-box;
+    height: 100%;
 }
-
+body{
+    display: flex;
+    flex-direction: column;
+}
 *, *::before, ::after{
     box-sizing: inherit;
 }
@@ -24,15 +30,21 @@ h1, h2, h3, h4, h5, h6{
     margin: 0;
 }
 
-.container{
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
-}
 
 .hamburger{
 	display: none;
 }
+
+
+.page {
+	flex: 1 0 auto;
+}
+
+footer{
+    flex-shrink: 0
+}
+
+
 
 
 @import "base/media";
