@@ -2,16 +2,20 @@
 
     &__wrapper {
         display: flex;
-        align-items: center;
-        
     }
 
     &__logo {}
 
-    &__contacts {}
+    &__contacts {
+        font-size: 16px;
+        padding: 16px 0 0 50px;
+        margin-right: 40px;
+    }
 
     &__phone {
         display: block;
+        margin-top: 3px;
+
     }
 }
 .logo {
@@ -19,13 +23,19 @@
 .nav {
     
     &__list {
+        min-width: 670px;
         display: flex;
-        margin-left: 28px;
+        justify-content: space-around;
+        margin-left: 12px;
+        padding-top: 30px;
     }
 
     &__item {
-        margin-right: 43px;
+
+        // margin-right: 43px;
+
     }
 }
 .button {
+
 }
