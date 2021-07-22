@@ -97,7 +97,52 @@ new Swiper('.swiper-container', {
     // },
 
     // Скорость
-    speed:800,
+    // speed:3000,
+
+    // Вертикальный слайдер
+    // direction: 'vertical',
+
+    // Эффекты переключения слайдов
+    // Листание
+    // effect:'slide',
+
+    // // Наложение слайдов друг на друга/прозрачность
+    // effect:'fade',
+    // fadeEffect: {
+    //   // Параллельная смена прозрачности
+    //   // crossFade: true,
+    // }
+
+    // Переворот
+    // effect:'flip',
+    // flipEffect: {
+    //   // Тень
+    //   slideShadows:true,
+    //   // Показ только активного слайда
+    //   limitRotation:true,
+    // }
+
+    // // Куб
+    // effect:'cube',
+    // cubeEffect: {
+    //   // Настройки тени
+    //   slideShadows: true,
+    //   shadow: true,
+    //   shadowOffset: 20,
+    //   shadowScale: 0.94,
+    // }
+
+    // Поток/лента слайдов
+    // effect:'coverflow',
+
+    // coverflowEffect: {
+    //   // Угол
+    //   rotate: 20,
+    //   // Наложение
+    //   stretch: 50,
+    //   // Тень
+    //   sliderShadows: true,
+    // }
 
      
 
