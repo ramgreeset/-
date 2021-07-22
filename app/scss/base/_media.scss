@@ -5,9 +5,13 @@
 }
 
 @media(max-width: 992px) {
-    .container {
-        max-width: 750px;
-    }
+	.swiper-pagination-bullet{
+	display: none;
+	
+	}
+	.swiper-button-prev, .swiper-button-next{
+	display: none;
+}
 }
 
 @media(max-width: 767px) {

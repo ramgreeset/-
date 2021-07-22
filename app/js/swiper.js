@@ -144,8 +144,35 @@ new Swiper('.swiper-container', {
     //   sliderShadows: true,
     // }
 
-     
+    // breakpoints: {
 
+    //   320:{
+    //     slidesPerView:1,
+    //   },
+
+    //   480: {
+    //     slidesPerView:2,
+    //   },
+
+    //   992:{
+    //     slidesPerView:3,
+    //   }
+
+    // },
+
+     
+    // // LazyLoad
+    // // Отключить предзагрузку картинок
+    // preloadImages: false,
+    // lazy: {
+    //   // Подгружать на старте переключения слайдера
+    //   loadOnTransitionStart: false,
+    //   // Подгружать предыдущую и следующую картинку
+    //   loadPrevNext: false,
+    // },
+    // // Слежка за видимыми слайдами
+    // watchSlidesProgress: true,
+    // watchSlidesVisibility: true,
 
 
 });
