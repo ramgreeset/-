@@ -27,14 +27,18 @@
     color: rgb(192, 42, 42);
 }
 
+// Скролл
 .swiper-scrollbar {
     // cursor: pointer;
     background-color: rgb(23, 211, 117);
 }
+
+// Колесо прокрутки скролла
 .swiper-scrollbar-drag {
-    // cursor: pointer;
-    // background-color: rgb(211, 67, 23);
+    cursor: pointer;
+    background-color: rgb(211, 67, 23);
 }
+
 
 .swiper-pagination-fraction{
     font-size: 20px;

@@ -40,18 +40,67 @@ new Swiper('.swiper-container', {
 
     // Включение/отключение свайпа на ПК
     // simulateTouch: true,
+
     // Чувствительность свайпа
     // touchRatio: 1,
+
     // Угол срабатывания свайпа
     // touchAngle: 45,
+
     // Курсор свайпа
     // grabCursor: true,
+
     // Переключение при клике на слайд
     // slideToClickedSlide: true,
+
     // Автовысота
     // autoHeight: true,
+
     // Колличество слайдов для показа
-    slidesPerView:1,
+    // slidesPerView: 2,
+
+    // Отключение функционала если слайдов меньше чем нужно
+    // watchOverflow:true,
+
+    // Отступ между слайдами
+    // spaceBetween:30,
+
+    // Колличество пролистываемых слайдов
+    // slidesPerGroup: 2,
+
+    // Активный слайд по центру
+    // centeredSlides:true,
+
+    // Стартовый слайд
+    // initialSlide: 0,
+
+    // Мультирядность
+    // slidesPerColumn: 2,
+
+    // Бесконечный слайдер
+    // loop:true,
+
+    // Колличество дубриующих слайдов
+    // loopedSlides:3,
+
+    // Свободный режим
+    // freeMode: true,
+
+    // Автопрокрутка
+    // autoplay: {
+    //   Пауза между прокруткой
+    //   delay: 1000,
+    //   Закончить на последнем слайде
+    //   stopOnLastSlide: true,
+    //   Отключить после ручного переключения
+    //   disableOnInteraction: false,
+    // },
+
+    // Скорость
+    speed:800,
+
+     
+
 
 
 });
