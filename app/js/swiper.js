@@ -18,7 +18,7 @@ new Swiper('.swiper-container', {
     //     return '<span class="' + className + '">' + (index + 1) + '</span>';
     //   },
 
-      //Фракция. Нумерация булетов по типу 1/3
+      // Фракция. Нумерация булетов по типу 1/3
       type: 'fraction',
       // Кастомный вывод фракций
       renderFraction: function (currentClass, totalClass) {
@@ -26,8 +26,32 @@ new Swiper('.swiper-container', {
         ' из ' +
         '<span class="' + totalClass + '"></span>';
       },
+
+      // Прогрессбар
+      // type: 'progressbar',
+
     },
 
+    scrollbar: {
+      el: '.swiper-scrollbar',
+      // Возможность перетаскивать скролл
+      draggable: true
+    },
+
+    // Включение/отключение свайпа на ПК
+    // simulateTouch: true,
+    // Чувствительность свайпа
+    // touchRatio: 1,
+    // Угол срабатывания свайпа
+    // touchAngle: 45,
+    // Курсор свайпа
+    // grabCursor: true,
+    // Переключение при клике на слайд
+    // slideToClickedSlide: true,
+    // Автовысота
+    // autoHeight: true,
+    // Колличество слайдов для показа
+    slidesPerView:1,
 
 
 });

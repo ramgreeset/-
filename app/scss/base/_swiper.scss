@@ -27,14 +27,26 @@
     color: rgb(192, 42, 42);
 }
 
-// .swiper-scrollbar {
-// }
+.swiper-scrollbar {
+    // cursor: pointer;
+    background-color: rgb(23, 211, 117);
+}
+.swiper-scrollbar-drag {
+    // cursor: pointer;
+    // background-color: rgb(211, 67, 23);
+}
 
 .swiper-pagination-fraction{
     font-size: 20px;
-    color: rgb(39, 34, 34);
+    color: rgb(12, 11, 11);
 
 }
 
+// Прогрессбар
+// .swiper-pagination-progressbar-fill{
+// }
+// :root{
+//     --swiper-theme-color: #c92525;
+// }
 
 
