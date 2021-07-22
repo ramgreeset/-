@@ -1,7 +1,9 @@
 @import "base/variables";
 @import "base/mixins";
 @import "base/container";
+@import "base/swiper";
 @import "blocks/header";
+@import "blocks/hero";
 
 html,body{
     box-sizing: border-box;
@@ -50,6 +52,7 @@ h1, h2, h3, h4, h5, h6{
 
 
 .page {
+
 	flex: 1 0 auto;
 }
 

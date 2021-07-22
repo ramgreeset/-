@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.min.css">
     <!-- &display=swap &subset=cyrillic-ext -->
-    <link href="https://fonts.googleapis.com/css?family=Rubik:300,regular,500,600,700,800,900,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" &display=swap &subset=cyrillic-ext />
+    <link
+        href="https://fonts.googleapis.com/css?family=Rubik:300,regular,500,600,700,800,900,300italic,italic,500italic,600italic,700italic,800italic,900italic"
+        rel="stylesheet" &display=swap &subset=cyrillic-ext />
 
-    
+
     <title>Триколор</title>
 </head>
+
 <body>
-        <main class="page">
+    <main class="page">
         <header class="header">
             <div class="container">
                 <div class="header__wrapper">
@@ -27,7 +31,7 @@
                             <li class="nav__item"><a href="#" class="nav__link">Решить проблему</a></li>
                             <li class="nav__item"><a href="#" class="nav__link">Каналы и тарифы</a></li>
                         </ul>
-                        
+
                     </nav>
                     <div class="header__contacts">
                         <a href="tel:+74999228974" class="header__phone">8 800 122-11-22</a>
@@ -36,18 +40,37 @@
                     <button class="header__button btn">Закакзать звонок</button>
 
 
-
                 </div>
             </div>
         </header>
 
+        <section class="hero"></section>
+        <div class="container">
+            <div class="hero__slider-block">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">Slide 1</div>
+                        <div class="swiper-slide">Slide 2</div>
+                        ...
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-scrollbar"></div>
+                </div>
+            </div>
+            </section>
 
 
-        </main>
 
-        <footer class="footer"></footer>
+    </main>
 
+    <footer class="footer"></footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/swiper.js"></script>
 
 </body>
+
 </html>
