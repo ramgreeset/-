@@ -1,0 +1,40 @@
+
+// .swiper-container {
+// }
+// .swiper-wrapper {
+// }
+// .swiper-slide {
+// }
+
+// Пагинация
+.swiper-pagination {
+    bottom: 0;
+}
+
+// Булеты
+.swiper-pagination-bullet{
+    padding-top: 2px;
+    width: 20px;
+    height: 20px;
+    font-size: 14px;
+    color: rgb(252, 245, 245);
+
+}
+
+// Кнопки управления слайдером
+.swiper-button-prev::after, 
+.swiper-button-next::after{
+    color: rgb(192, 42, 42);
+}
+
+// .swiper-scrollbar {
+// }
+
+.swiper-pagination-fraction{
+    font-size: 20px;
+    color: rgb(39, 34, 34);
+
+}
+
+
+
