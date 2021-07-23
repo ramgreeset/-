@@ -1,0 +1,66 @@
+.hero {
+    padding-top: 50px;
+    &__wrapper {
+        display: flex;
+    }
+
+    &__slider-block {
+        min-width: 540px;
+    }
+
+    &__services {
+        color: $main-color;
+        width: 605px;
+    }
+    
+    &__services-title {
+        font-weight: bold;
+        font-size: 48px;
+        margin-bottom: 35px;
+        text-transform: uppercase;
+    }
+
+    &__services-list {
+        margin:0 0 40px 10px;
+    }
+
+    &__services-descr {
+        text-transform: uppercase;
+        font-size: 20px;
+        width: 368px;
+        margin-bottom: 16px;
+    }
+
+    &__services-item {
+        margin: 0 0 10px 30px;
+
+        &::before{
+
+        }
+    }
+
+
+    &__promo-cards {
+        display: flex;
+    }
+
+    &__promo-card {}
+
+    &__promo-card-icon {}
+
+    &__promo-card-text {}
+}
+
+.heroswiper-container {
+}
+.heroswiper-wrapper {
+}
+.heroswiper-slide {
+}
+.heroswiper-pagination {
+}
+.accent {
+    color: $accent;
+}
+.btn {
+}
