@@ -7,6 +7,13 @@
     border-radius: 5px;
     margin-top: 11px;
     border:none;
+    transition: 0.3s all;
+    &:hover{
+        // background-color: $accent;
+        box-shadow: 0px 0px 5px 0px $main-color;
+        transition: 0.3s all;
+    }
+    
 }
 
 .hero__btn{
@@ -17,4 +24,9 @@
     text-transform: uppercase;
     background: $accent;
     margin-bottom: 70px;
+    &:hover{
+        // background-color: $accent;
+        box-shadow: 0px 0px 5px 0px $accent;
+        transition: 0.3s all;
+    }
 }

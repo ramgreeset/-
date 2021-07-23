@@ -5,7 +5,7 @@
     }
 
     &__slider-block {
-        min-width: 540px;
+        min-width: 550px;
     }
 
     &__services {
@@ -21,6 +21,8 @@
     }
 
     &__services-list {
+        position: relative;
+
         margin:0 0 40px 10px;
     }
 
@@ -35,16 +37,35 @@
         margin: 0 0 10px 30px;
 
         &::before{
-
+            content: "";
+            position: absolute;
+            left: 0;
+            transform: translateY(4px);
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background-color: $main-color;
         }
     }
 
 
     &__promo-cards {
         display: flex;
+        justify-content: space-between;
     }
 
-    &__promo-card {}
+    &__promo-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        padding: 25px 30px 20px 30px;
+        width: 185px;
+        height: 140px;
+        box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.15);
+        border-radius: 5px;
+    }
 
     &__promo-card-icon {}
 
