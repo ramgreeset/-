@@ -1,16 +1,11 @@
 new Swiper('.swiper-container', {
 
-    // Стрелки
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev'
-    },
     // Навигация
     // Булеты, текущее положение,прогрессбар
     pagination: {
       el: '.swiper-pagination',
     // // Буллеты. Возможность переключасть слайдер по булитам
-      // clickable:true,
+    //   clickable:true,
     // // Динамические буллеты. Центральный булет увеличивается в размере
     //   dynamicBullets: true,
     // // Кастомные булеты. Нумерация булетов
@@ -19,13 +14,13 @@ new Swiper('.swiper-container', {
     //   },
 
       // Фракция. Нумерация булетов по типу 1/3
-      // type: 'fraction',
-      // // Кастомный вывод фракций
-      // renderFraction: function (currentClass, totalClass) {
-      //   return 'Фото <span class="' + currentClass + '"></span>' +
-      //   ' из ' +
-      //   '<span class="' + totalClass + '"></span>';
-      // },
+      type: 'fraction',
+      // Кастомный вывод фракций
+      renderFraction: function (currentClass, totalClass) {
+        return 'Фото <span class="' + currentClass + '"></span>' +
+        ' из ' +
+        '<span class="' + totalClass + '"></span>';
+      },
 
       // Прогрессбар
       // type: 'progressbar',
@@ -100,7 +95,7 @@ new Swiper('.swiper-container', {
     // speed:3000,
 
     // Вертикальный слайдер
-    // direction: 'vertical',
+    direction: 'horizontal',
 
     // Эффекты переключения слайдов
     // Листание
@@ -187,13 +182,5 @@ new Swiper('.swiper-container', {
 
     // Обновить свайпер при изменении дочерних элементов слайдера
     // observeSlideChildren: true,
-
-
-
-
-
-
-
-
 
 });
