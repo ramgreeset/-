@@ -10,7 +10,7 @@ new Swiper('.swiper-container', {
     pagination: {
       el: '.swiper-pagination',
     // // Буллеты. Возможность переключасть слайдер по булитам
-    //   clickable:true,
+      // clickable:true,
     // // Динамические буллеты. Центральный булет увеличивается в размере
     //   dynamicBullets: true,
     // // Кастомные булеты. Нумерация булетов
@@ -19,24 +19,24 @@ new Swiper('.swiper-container', {
     //   },
 
       // Фракция. Нумерация булетов по типу 1/3
-      type: 'fraction',
-      // Кастомный вывод фракций
-      renderFraction: function (currentClass, totalClass) {
-        return 'Фото <span class="' + currentClass + '"></span>' +
-        ' из ' +
-        '<span class="' + totalClass + '"></span>';
-      },
+      // type: 'fraction',
+      // // Кастомный вывод фракций
+      // renderFraction: function (currentClass, totalClass) {
+      //   return 'Фото <span class="' + currentClass + '"></span>' +
+      //   ' из ' +
+      //   '<span class="' + totalClass + '"></span>';
+      // },
 
       // Прогрессбар
       // type: 'progressbar',
 
     },
 
-    scrollbar: {
-      el: '.swiper-scrollbar',
-      // Возможность перетаскивать скролл
-      draggable: true
-    },
+    // scrollbar: {
+    //   el: '.swiper-scrollbar',
+    //   // Возможность перетаскивать скролл
+    //   draggable: true
+    // },
 
     // Включение/отключение свайпа на ПК
     // simulateTouch: true,
@@ -173,6 +173,27 @@ new Swiper('.swiper-container', {
     // // Слежка за видимыми слайдами
     // watchSlidesProgress: true,
     // watchSlidesVisibility: true,
+
+    // Передача управления
+    // controller: {
+    //   control:myTextSlider,
+    // },
+
+    // Обновить свайпер при изменении элементов слайдера
+    // observe: true,
+
+    // Обновить свайпер при изменении родительский элементов слайдера
+    // observeParents: true,
+
+    // Обновить свайпер при изменении дочерних элементов слайдера
+    // observeSlideChildren: true,
+
+
+
+
+
+
+
 
 
 });

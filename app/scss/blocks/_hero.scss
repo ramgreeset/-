@@ -1,11 +1,14 @@
 .hero {
-    padding-top: 50px;
+    padding-top: 142px;
+ 
     &__wrapper {
         display: flex;
     }
 
     &__slider-block {
         min-width: 550px;
+        margin-right: 112px;
+
     }
 
     &__services {
@@ -67,9 +70,13 @@
         border-radius: 5px;
     }
 
-    &__promo-card-icon {}
-
-    &__promo-card-text {}
+    &__swiper-bg {
+        background-image: url('../images/bg/design.png');
+        width: 516px;
+        height: 682px;
+    } 
+    &__swiper-paralax-antenna {}   
+    &__swiper-paralax-router {}
 }
 
 .heroswiper-container {
@@ -85,3 +92,6 @@
 }
 .btn {
 }
+
+
+
