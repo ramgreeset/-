@@ -1,56 +1,46 @@
-
-// .swiper-container {
-// }
-// .swiper-wrapper {
-// }
-// .swiper-slide {
-// }
-
-// Пагинация
-.swiper-pagination {
-    bottom: 0;
-}
-
-// Булеты
 .swiper-pagination-bullet{
-    padding-top: 2px;
-    width: 20px;
-    height: 20px;
-    font-size: 14px;
-    color: rgb(252, 245, 245);
+    width: 40px;
+    height: 5px;
+    border-radius:50px;
+    border: 1px solid $main-color;
+    background-color: #fff;
+    opacity: 1;
+    &-active{
+        background-color: $main-color;
+        
+    }
 
 }
-
-// Кнопки управления слайдером
-.swiper-button-prev::after, 
-.swiper-button-next::after{
-    color: rgb(192, 42, 42);
-}
-
-// Скролл
-.swiper-scrollbar {
-    // cursor: pointer;
-    background-color: rgb(23, 211, 117);
-}
-
-// Колесо прокрутки скролла
-.swiper-scrollbar-drag {
-    cursor: pointer;
-    background-color: rgb(211, 67, 23);
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 10px;
 }
 
 
-.swiper-pagination-fraction{
-    font-size: 20px;
-    color: rgb(12, 11, 11);
 
+.slider-block {
+    padding-top: 10px;
+    max-width: 550px;
+    margin-right: 90px;
 }
 
-// Прогрессбар
-// .swiper-pagination-progressbar-fill{
-// }
-// :root{
-//     --swiper-theme-color: #c92525;
-// }
+.swiper-bg {
+    background-image: url('../images/bg/design.png');
+    width: 516px;
+    height: 682px;
+} 
+.swiper-slide {
+    position: relative;
+    height: 760px;
+}
+.swiper-paralax-antenna {
+    position: absolute;
+    bottom: 70px;
+    right: 0px;
+}   
+.swiper-paralax-router {
+    position: absolute;
+    bottom: 50px;
+    left: 5px;
+}
 
 

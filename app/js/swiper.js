@@ -1,5 +1,9 @@
 new Swiper('.swiper-container', {
 
+  parallax: true,
+
+
+
     // Навигация
     // Булеты, текущее положение,прогрессбар
     pagination: {
@@ -14,18 +18,21 @@ new Swiper('.swiper-container', {
     //   },
 
       // Фракция. Нумерация булетов по типу 1/3
-      type: 'fraction',
-      // Кастомный вывод фракций
-      renderFraction: function (currentClass, totalClass) {
-        return 'Фото <span class="' + currentClass + '"></span>' +
-        ' из ' +
-        '<span class="' + totalClass + '"></span>';
-      },
+      // type: 'fraction',
+      // // Кастомный вывод фракций
+      // renderFraction: function (currentClass, totalClass) {
+      //   return 'Фото <span class="' + currentClass + '"></span>' +
+      //   ' из ' +
+      //   '<span class="' + totalClass + '"></span>';
+      // },
 
       // Прогрессбар
       // type: 'progressbar',
 
     },
+
+        // Вертикальный слайдер
+        direction: 'horizontal',
 
     // scrollbar: {
     //   el: '.swiper-scrollbar',
@@ -73,7 +80,7 @@ new Swiper('.swiper-container', {
     // slidesPerColumn: 2,
 
     // Бесконечный слайдер
-    // loop:true,
+    loop:true,
 
     // Колличество дубриующих слайдов
     // loopedSlides:3,
@@ -82,20 +89,17 @@ new Swiper('.swiper-container', {
     // freeMode: true,
 
     // Автопрокрутка
-    // autoplay: {
-    //   Пауза между прокруткой
-    //   delay: 1000,
-    //   Закончить на последнем слайде
-    //   stopOnLastSlide: true,
-    //   Отключить после ручного переключения
-    //   disableOnInteraction: false,
-    // },
+    autoplay: {
+      // Пауза между прокруткой
+      delay: 3000,
+      // Закончить на последнем слайде
+      // stopOnLastSlide: true,
+      // Отключить после ручного переключения
+      disableOnInteraction: false,
+    },
 
     // Скорость
     // speed:3000,
-
-    // Вертикальный слайдер
-    direction: 'horizontal',
 
     // Эффекты переключения слайдов
     // Листание
