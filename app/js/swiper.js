@@ -9,7 +9,7 @@ new Swiper('.swiper-container', {
     pagination: {
       el: '.swiper-pagination',
     // // Буллеты. Возможность переключасть слайдер по булитам
-    //   clickable:true,
+      clickable:true,
     // // Динамические буллеты. Центральный булет увеличивается в размере
     //   dynamicBullets: true,
     // // Кастомные булеты. Нумерация булетов
@@ -95,7 +95,7 @@ new Swiper('.swiper-container', {
       // Закончить на последнем слайде
       // stopOnLastSlide: true,
       // Отключить после ручного переключения
-      disableOnInteraction: false,
+      disableOnInteraction: true,
     },
 
     // Скорость
