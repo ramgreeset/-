@@ -1,3 +1,42 @@
 .equipment{
     padding: 113px 0 120px 0;
 }
+.equipment-tabs {
+
+}
+.equipment-tabs__nav{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    background-color: $main-color;
+    border-radius: 5px;
+
+
+    &-btn {
+        padding-left: 20px;
+        min-width: 16.6666%;
+        height: 95px;
+        background-color: $main-color;
+        transition: background-color .3s;
+        border-radius: 5px;
+        font-size: 18px;
+        color: #FFFFFF;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 300;
+    }
+    .active{
+        background-color: #009FE3;
+    }
+}
+.equipment-tabs__content {
+    &-item{
+        display: none;
+
+        
+    }
+    .active{
+        display: block;
+    }
+}
