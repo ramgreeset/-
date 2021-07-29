@@ -1,0 +1,39 @@
+.equipment {
+}
+.title {
+}
+.equipment-tabs {
+
+
+		&__items {
+            display: flex;
+        }
+
+		&__item {
+            flex: 0 1 33.3333%;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-transform: uppercase;
+
+        }
+
+		&__body {}
+
+		&__block {
+            position: relative;
+            display: none;
+            &:target{
+                display: block;
+            }
+            // &::before{
+            //     content: '';
+            //     height: 50px;
+            //     width: 33.333%;
+            //     position: absolute;
+            //     top: -50px;
+
+            // }
+        }
+}
