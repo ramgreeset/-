@@ -18,7 +18,7 @@
 
 .hero__btn{
     font-weight: 500;
-    font-size: 18px;
+    @include adaptiv-font (18, 12, 18);
     width: 220px;
     height: 60px;
     text-transform: uppercase;

@@ -1,13 +1,30 @@
 // Ширина макета
-$maxWidth: 1922;
+$minWidth: 320px;
+$maxWidth: 1920;
+$maxWidthContainer: 1170;
+$md1: $maxWidthContainer + 12;
 
-@mixin adaptiv-font($pcSize, $mobSize){
+// 	// Команда установки адаптивного шрифта
+// 	// @include adaptiv-font (60, 30, 60);
+
+
+//Адаптивный шрифт
+@mixin adaptiv-font($pcSize, $mobSize, $maxSize) {
 	$addSize: $pcSize - $mobSize;
-	$addMobSize: $pcSize + $mobSize * .7;
-	@media (max-width: 767px){font-size: calc(#{$mobSize + px} + #{$addMobSize} * ((100vw - 320px) / #{$maxWidth}));}
-	@media (min-width: 768px){font-size: calc(#{$mobSize + px} + #{$addSize} * (100vw / #{$maxWidth}));}
-	@media (min-width: #{$maxWidth + px}){font-size: #{$pcSize + px};}
-
-	// Команда установки адаптивного шрифта
-	// @include adaptiv-font (60px,30px)
+	@if $maxSize==1 {
+		//Только если меньше контейнера
+		font-size: $pcSize + px;
+		@media (max-width: #{$maxWidthContainer + px}) {
+			font-size: calc(#{$mobSize + px} + #{$addSize} * ((100vw - 320px) / #{$maxWidthContainer - 320}));
+		}
+	} @else if $maxSize==2 {
+		//Только если больше контейнера
+		font-size: $pcSize + px;
+		@media (min-width: #{$maxWidthContainer + px}) {
+			font-size: calc(#{$mobSize + px} + #{$addSize} * ((100vw - 320px) / #{$maxWidth - 320}));
+		}
+	} @else {
+		//Всегда
+		font-size: calc(#{$mobSize + px} + #{$addSize} * ((100vw - 320px) / #{$maxWidth - 320}));
+	}
 }
