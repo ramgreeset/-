@@ -10,9 +10,12 @@
     justify-content: center;
     background-color: $main-color;
     border-radius: 5px;
+    .active{
+        background-color: #009FE3;
+    }
+}
 
-
-    &-btn {
+.equipment-tabs__btn {
         padding-left: 20px;
         min-width: 16.6666%;
         height: 95px;
@@ -26,10 +29,8 @@
         justify-content: center;
         font-weight: 300;
     }
-    .active{
-        background-color: #009FE3;
-    }
-}
+    
+
 .equipment-tabs__content {
     &-item{
         display: none;
