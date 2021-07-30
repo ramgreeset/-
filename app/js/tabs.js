@@ -27,4 +27,4 @@ function onTabClick(item) {
     });
 }
 
-document.querySelector('.equipment-tabs__nav-btn').click();
+document.querySelector('.equipment-tabs__btn').click();
