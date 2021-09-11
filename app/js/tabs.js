@@ -28,3 +28,5 @@ function onTabClick(item) {
 }
 
 document.querySelector('.equipment-tabs__btn').click();
+
+

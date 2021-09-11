@@ -47,3 +47,16 @@
         }
     }
 }
+
+.ttt{
+    font-size: 30px;
+    color: rgb(255, 0, 0);
+}
+.aaa{
+    font-size: 30px;
+    color: rgb(17, 0, 255);
+}
+
+.ttt:hover .aaa{
+    color: rgb(0, 255, 64);
+}
